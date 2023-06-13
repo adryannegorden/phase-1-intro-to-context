@@ -1,0 +1,452 @@
+{
+  "stats": {
+    "suites": 23,
+    "tests": 31,
+    "passes": 31,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-13T20:26:34.105Z",
+    "end": "2023-06-13T20:26:34.437Z",
+    "duration": 332
+  },
+  "tests": [
+    {
+      "title": "has a function called createEmployeeRecord",
+      "fullTitle": "The payroll system populates a record from an Array has a function called createEmployeeRecord",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a firstName field from the 0th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a firstName field from the 0th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a familyName field from the 1th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a familyName field from the 1th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a title field from the 2th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a title field from the 2th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a payPerHour field from the 3th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a payPerHour field from the 3th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "initializes a field, timeInEvents, to hold an empty Array",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord initializes a field, timeInEvents, to hold an empty Array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "initializes a field, timeOutEvents, to hold an empty Array",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord initializes a field, timeOutEvents, to hold an empty Array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a function called createEmployeeRecords",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records has a function called createEmployeeRecords",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates two records",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records createEmployeeRecords creates two records",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly assigns the first names",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records createEmployeeRecords correctly assigns the first names",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates more than 2 records",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records createEmployeeRecords creates more than 2 records",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a function called createTimeInEvent",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record has a function called createTimeInEvent",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates the correct type",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record createTimeInEvent creates the correct type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct date",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record createTimeInEvent extracts the correct date",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct hour",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record createTimeInEvent extracts the correct hour",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a function called createTimeOutEvent",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record has a function called createTimeOutEvent",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates the correct type",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record createTimeOutEvent creates the correct type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct date",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record createTimeOutEvent extracts the correct date",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct hour",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record createTimeOutEvent extracts the correct hour",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "hoursWorkedOnDate calculates the hours worked when given an employee record and a date",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent hoursWorkedOnDate calculates the hours worked when given an employee record and a date",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employee worked 2 hours",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent hoursWorkedOnDate calculates that the employee worked 2 hours",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wagesEarnedOnDate multiplies the hours worked by the employee's rate per hour",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent wagesEarnedOnDate multiplies the hours worked by the employee's rate per hour",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employee earned 54 dollars",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent wagesEarnedOnDate calculates that the employee earned 54 dollars",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allWagesFor aggregates all the dates' wages and adds them together",
+      "fullTitle": "The payroll system Given an employee record with MULTIPLE date-matched timeInEvent and timeOutEvent allWagesFor aggregates all the dates' wages and adds them together",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employee earned 378 dollars",
+      "fullTitle": "The payroll system Given an employee record with MULTIPLE date-matched timeInEvent and timeOutEvent allWagesFor calculates that the employee earned 378 dollars",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculatePayroll aggregates all the dates' wages and adds them together",
+      "fullTitle": "The payroll system Given an array of multiple employees calculatePayroll aggregates all the dates' wages and adds them together",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employees earned 770 dollars",
+      "fullTitle": "The payroll system Given an array of multiple employees calculatePayroll calculates that the employees earned 770 dollars",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "exists",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Dependent functions: createEmployeeRecords takes CSV data, returns an array of employee records exists",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an Array with 2 records for Loki and Natalia",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Dependent functions: createEmployeeRecords takes CSV data, returns an array of employee records returns an Array with 2 records for Loki and Natalia",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "exists",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Full Payroll Test from several imported CSV structures calculatePayroll exists",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sums the payroll burden to $11,880 when passed an array of employee records",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Full Payroll Test from several imported CSV structures calculatePayroll correctly sums the payroll burden to $11,880 when passed an array of employee records",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "has a function called createEmployeeRecord",
+      "fullTitle": "The payroll system populates a record from an Array has a function called createEmployeeRecord",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a firstName field from the 0th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a firstName field from the 0th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a familyName field from the 1th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a familyName field from the 1th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a title field from the 2th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a title field from the 2th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "populates a payPerHour field from the 3th element",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord populates a payPerHour field from the 3th element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "initializes a field, timeInEvents, to hold an empty Array",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord initializes a field, timeInEvents, to hold an empty Array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "initializes a field, timeOutEvents, to hold an empty Array",
+      "fullTitle": "The payroll system populates a record from an Array createEmployeeRecord initializes a field, timeOutEvents, to hold an empty Array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a function called createEmployeeRecords",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records has a function called createEmployeeRecords",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates two records",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records createEmployeeRecords creates two records",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly assigns the first names",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records createEmployeeRecords correctly assigns the first names",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates more than 2 records",
+      "fullTitle": "The payroll system process an Array of Arrays into an Array of employee records createEmployeeRecords creates more than 2 records",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a function called createTimeInEvent",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record has a function called createTimeInEvent",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates the correct type",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record createTimeInEvent creates the correct type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct date",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record createTimeInEvent extracts the correct date",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct hour",
+      "fullTitle": "The payroll system it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record createTimeInEvent extracts the correct hour",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a function called createTimeOutEvent",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record has a function called createTimeOutEvent",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "creates the correct type",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record createTimeOutEvent creates the correct type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct date",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record createTimeOutEvent extracts the correct date",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "extracts the correct hour",
+      "fullTitle": "The payroll system it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record createTimeOutEvent extracts the correct hour",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "hoursWorkedOnDate calculates the hours worked when given an employee record and a date",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent hoursWorkedOnDate calculates the hours worked when given an employee record and a date",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employee worked 2 hours",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent hoursWorkedOnDate calculates that the employee worked 2 hours",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wagesEarnedOnDate multiplies the hours worked by the employee's rate per hour",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent wagesEarnedOnDate multiplies the hours worked by the employee's rate per hour",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employee earned 54 dollars",
+      "fullTitle": "The payroll system Given an employee record with a date-matched timeInEvent and timeOutEvent wagesEarnedOnDate calculates that the employee earned 54 dollars",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allWagesFor aggregates all the dates' wages and adds them together",
+      "fullTitle": "The payroll system Given an employee record with MULTIPLE date-matched timeInEvent and timeOutEvent allWagesFor aggregates all the dates' wages and adds them together",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employee earned 378 dollars",
+      "fullTitle": "The payroll system Given an employee record with MULTIPLE date-matched timeInEvent and timeOutEvent allWagesFor calculates that the employee earned 378 dollars",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculatePayroll aggregates all the dates' wages and adds them together",
+      "fullTitle": "The payroll system Given an array of multiple employees calculatePayroll aggregates all the dates' wages and adds them together",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates that the employees earned 770 dollars",
+      "fullTitle": "The payroll system Given an array of multiple employees calculatePayroll calculates that the employees earned 770 dollars",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "exists",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Dependent functions: createEmployeeRecords takes CSV data, returns an array of employee records exists",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an Array with 2 records for Loki and Natalia",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Dependent functions: createEmployeeRecords takes CSV data, returns an array of employee records returns an Array with 2 records for Loki and Natalia",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "exists",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Full Payroll Test from several imported CSV structures calculatePayroll exists",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sums the payroll burden to $11,880 when passed an array of employee records",
+      "fullTitle": "The payroll system runs payroll using the mock data provided by Ultron data systems Full Payroll Test from several imported CSV structures calculatePayroll correctly sums the payroll burden to $11,880 when passed an array of employee records",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
